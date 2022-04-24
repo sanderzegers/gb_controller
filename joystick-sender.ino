@@ -1,4 +1,8 @@
-//DigiJoystick test and usage documentation
+/* Joystick-Sender
+ *  
+ *  Get current joystick & button input and transfer via Gameboy Link cable
+ *  Optimized for Digispark ATtiny85 compatible
+ */
 
 #include "DigiJoystick.h"
 
@@ -10,8 +14,6 @@ volatile byte capturedBytes[32];
 volatile byte input = 0;
 byte capturedByte;
 
-
-//bool temp = false;
 
 #define PULSE_TIME 20
 
