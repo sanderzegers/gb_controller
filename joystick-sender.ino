@@ -51,25 +51,6 @@ byte getJoystickValue() {
 
 
 
-// Clock rising interrupt handler
-void INT_clockRising() {
-
-  input = input + ((PINB & B00000001) << bitcounter);
-
-  if (bitcounter == 0) {
-    bitcounter = 7;
-    capturedBytes[bytecounter] = input;
-    input = 0;
-    bytecounter++;
-  }
-  else {
-    bitcounter--;
-  }
-}
-
-
-
-
 void loop() {
 
   DigiJoystick.delay(15);
