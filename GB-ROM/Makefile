@@ -1,8 +1,10 @@
-CC	= ../../../bin/lcc -Wa-l -Wl-m -Wl-j
+#CC	= ../../../bin/lcc -Wa-l -Wl-m -Wl-j
+CC	= /opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
 
 BINS	= gb_controller.gb
 
-all:	$(BINS)
+all:	#$(BINS)
+	$(CC) -o $(BINS) gb_controller.c tilemap.c tileset.c buttons.c
 
 make.bat: Makefile
 	@echo "REM Automatically generated from Makefile" > make.bat
