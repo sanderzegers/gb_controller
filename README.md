@@ -3,8 +3,8 @@
 Use a gameboy classic or gameboy advance as an USB Controller on a computer.
 
 <p align="center">
-<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/gameboy_pocket.png" alt="Gameboy Pocket connected to Attiny85" width="425">
-<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/Animation.gif" alt="Windows Gamepad" width="425">
+<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/gameboy_pocket.png" alt="Gameboy Pocket connected to Attiny85" width="350">
+<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/Animation.gif" alt="Windows Gamepad" width="350">
 </p>
 
 
