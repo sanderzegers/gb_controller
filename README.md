@@ -3,11 +3,8 @@
 Use a gameboy classic or gameboy advance as an USB Controller on a computer.
 
 <p align="center">
-<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/gameboy_pocket.png" alt="Gameboy Pocket connected to Attiny85">
-</p>
-
-<p align="center">
-<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/Animation.gif" alt="Windows Gamepad">
+<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/gameboy_pocket.png" alt="Gameboy Pocket connected to Attiny85" width="425">
+<img src="https://github.com/sanderzegers/gb_controller/blob/main/images/Animation.gif" alt="Windows Gamepad" width="425">
 </p>
 
 
@@ -24,9 +21,9 @@ So now the Arduino just emulates the SPI Master in software by pulsing the clock
 ## Hardware
 
 - DigiSpark ATtiny85
-- Krikkz EverDrive GB X3
+- Krikkz EverDrive GB X3 (Flash Cartridge)
 - Gameboy (Classic/Color/Pocket/Advance)
-- Gameboy serial cable
+- Gameboy Link Cable
 
 Cable connection:
 
@@ -41,13 +38,14 @@ You might have to swap SOUT and SIN connection. Depending on which side of the c
 
 Link cable connection
 
-Plug 1         Plug 2
- SI ______  ______SI
- SO ______><______SO
- GND_____________GND
- SD               SD
- SC _____________ SC
- Shield_______Shield
-
+```
+Plug 1         Plug 2  
+ SI ______  ______SI  
+ SO ______><______SO  
+ GND_____________GND  
+ SD               SD  
+ SC _____________ SC  
+ Shield_______Shield  
+```
 
 
